@@ -74,8 +74,13 @@ The project uses ES Modules. This is already configured in `package.json`:
 
 From the project root:
 
+```bash
 node src/index.js
+```
 
-✅ Expected Output
+## ✅ Expected Output
+
+```text
 Fan has started!
 Fan has stopped!
+```
