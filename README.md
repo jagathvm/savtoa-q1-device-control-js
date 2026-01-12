@@ -100,7 +100,3 @@ Fan has stopped!
 - The base Device class is not meant to be instantiated directly
 - Attempting to call start() on Device throws an error
 - New devices (e.g., Light) can be added easily by extending Device
-
-## 👤 Author
-
-Jagath V Madhavan
