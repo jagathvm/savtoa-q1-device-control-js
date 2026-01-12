@@ -2,7 +2,7 @@
 import Device from "./Device.js";
 
 // ----- Fan Device -----
-class Fan extends Device {
+class Motor extends Device {
   // Method to start the device
   start() {
     // Check whether the device is ON
@@ -10,7 +10,7 @@ class Fan extends Device {
       // Turn ON the device
       this._turnOn();
       // Print the output
-      console.log("Fan has started!");
+      console.log("Motor has started!");
     }
   }
 
@@ -21,10 +21,10 @@ class Fan extends Device {
       // Turn OFF the device
       this._turnOff();
       // Print the output
-      console.log("Fan has stopped!");
+      console.log("Motor has stopped!");
     }
   }
 }
 
-// Export Fan Device
-export default Fan;
+// Export Motor Device
+export default Motor;

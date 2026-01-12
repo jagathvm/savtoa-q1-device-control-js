@@ -1,25 +1,21 @@
-// Import Fan, Controller
-import Fan from "./Fan.js";
+// Import Light, Motor and Controller
+import Light from "./Light.js";
+import Motor from "./Motor.js";
 import Controller from "./Controller.js";
 
-// Create instance of Fan device
-const fan = new Fan();
+// Create instances of Light and Motor devices
+const light = new Light();
+const motor = new Motor();
 
 // Create instance of Controller
 const controller = new Controller();
 
-// Controller calls the operate method on device
-controller.operate(fan);
+// Controller calls the operate method on devices
+controller.operate(motor);
+controller.operate(light);
 
 // ----- Output -----
-// Fan has started!
-// Fan has stopped!
-
-// // Create instance of Device
-// const device = new Device();
-
-// // Calling start method directly on the device
-// device.start();
-
-// // ----- Output -----
-// // Error: start() must be implemented by subclasses!
+// Motor has started!
+// Motor has stopped!
+// Light switched on!
+// Light switched off!
