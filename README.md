@@ -78,9 +78,29 @@ From the project root:
 node src/index.js
 ```
 
-## ✅ Expected Output
+### ✅ Expected Output
 
 ```text
 Fan has started!
 Fan has stopped!
 ```
+
+## 🏗 OOP Principles Demonstrated
+
+| Principle              | Implementation                  |
+| ---------------------- | ------------------------------- |
+| Encapsulation          | Private #isOn state             |
+| Abstraction            | Abstract-style start() / stop() |
+| Inheritance            | Fan extends Device              |
+| Polymorphism           | Controller.operate(device)      |
+| Separation of Concerns | Device, Fan, Controller         |
+
+## 📝 Notes
+
+- The base Device class is not meant to be instantiated directly
+- Attempting to call start() on Device throws an error
+- New devices (e.g., Light) can be added easily by extending Device
+
+## 👤 Author
+
+Jagath V Madhavan
