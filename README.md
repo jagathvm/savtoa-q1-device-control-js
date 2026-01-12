@@ -53,3 +53,29 @@ savtoa-q1-device-control-js/
 - Demonstrates **runtime polymorphism**
 
 ---
+
+## 🚀 How to Run the Project
+
+### Step 1: Install Node.js
+
+Make sure Node.js (v14 or higher) is installed.
+
+### Step 2: Enable ES Modules
+
+The project uses ES Modules. This is already configured in `package.json`:
+
+```json
+{
+  "type": "module"
+}
+```
+
+### Step 3: Run the application
+
+From the project root:
+
+node src/index.js
+
+✅ Expected Output
+Fan has started!
+Fan has stopped!
