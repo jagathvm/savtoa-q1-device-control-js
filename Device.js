@@ -16,4 +16,13 @@ class Device {
   isOn() {
     return this.#isOn;
   }
+
+  // Methods to be implemented by subclasses
+  start() {
+    throw new Error("start() must be implemented by subclasses!");
+  }
+
+  stop() {
+    throw new Error("stop() must be implemented by subclasses!");
+  }
 }
