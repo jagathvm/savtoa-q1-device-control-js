@@ -62,3 +62,16 @@ class Controller {
     device.stop();
   }
 }
+
+// Create instance of Fan device
+const fan = new Fan();
+
+// Create instance of Controller
+const controller = new Controller();
+
+// Controller calls the operate method on device
+controller.operate(fan);
+
+// ----- Output -----
+// Fan has started!
+// Fan has stopped!
