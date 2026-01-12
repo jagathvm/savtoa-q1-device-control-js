@@ -1,0 +1,13 @@
+{
+  "name": "savtoa-q1-device-control",
+  "version": "1.0.0",
+  "description": "Code for Device control system.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jagath V Madhavan",
+  "license": "ISC"
+}
