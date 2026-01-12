@@ -81,8 +81,10 @@ node src/index.js
 ### ✅ Expected Output
 
 ```text
-Fan has started!
-Fan has stopped!
+Motor has started!
+Motor has stopped!
+Light switched on!
+Light switched off!
 ```
 
 ## 🏗 OOP Principles Demonstrated
